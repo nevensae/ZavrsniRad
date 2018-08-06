@@ -4,8 +4,7 @@ body {
 }
 .container {
 	max-width: 1200px;
-	margin-left: 0 auto;
-	margin-right: 0 auto;
+	margin: 0 auto;
 }
 
 /*NAVIGATION I LINK*/
@@ -60,7 +59,56 @@ ul {
 }
 
 
+div .bckimg {
+	width: 	500px;
+	height: 360px;
+	background-image: url("../images/tomato.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 60px !important;
+	margin-bottom: 40px !important;
+	margin-top: 40px !important;
+}
 
+div .bckimg1 {
+	width: 	500px;
+	height: 360px;
+	background-image: url("../images/basil.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: 40px !important;
+	margin-left: 60px !important;
+	margin-bottom: 40px !important;
+}
+
+div .bckimg2 {
+	width: 	500px;
+	height: 360px;
+	background-image: url("../images/dahlia.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 60px !important;
+	margin-bottom: 40px !important;
+}
+
+div .bckimg3 {
+	width: 	500px;
+	height: 360px;
+	background-image: url("../images/lilly.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-left: 60px !important;
+	margin-bottom: 40px !important;
+}
+
+div:hover {
+  background-size: 170%;
+  transition: 1s;
+}
 
 /*CLASS FOR FOOTER IN MEDIA QUERY*/
 div.mobf {
@@ -136,3 +184,4 @@ div.mobf {
 .pic img {
 	width: auto;
 }
+
