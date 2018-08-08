@@ -5,6 +5,7 @@ body {
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
+
 }
 
 /*NAVIGATION I LINK*/
@@ -58,57 +59,10 @@ ul {
 	padding-bottom: 420px;
 }
 
-
-div .bckimg {
-	width: 	500px;
-	height: 360px;
-	background-image: url("../images/tomato.jpg");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin-left: 60px !important;
-	margin-bottom: 40px !important;
-	margin-top: 40px !important;
+.logo-set {
+	padding-top: 10px !important;
 }
 
-div .bckimg1 {
-	width: 	500px;
-	height: 360px;
-	background-image: url("../images/basil.jpg");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin-top: 40px !important;
-	margin-left: 60px !important;
-	margin-bottom: 40px !important;
-}
-
-div .bckimg2 {
-	width: 	500px;
-	height: 360px;
-	background-image: url("../images/dahlia.jpg");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin-left: 60px !important;
-	margin-bottom: 40px !important;
-}
-
-div .bckimg3 {
-	width: 	500px;
-	height: 360px;
-	background-image: url("../images/lilly.jpg");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin-left: 60px !important;
-	margin-bottom: 40px !important;
-}
-
-div:hover {
-  background-size: 170%;
-  transition: 1s;
-}
 
 /*CLASS FOR FOOTER IN MEDIA QUERY*/
 div.mobf {
@@ -166,6 +120,8 @@ div.mobf {
 	}
 
 
+
+
 }
 
 @media screen and (max-width: 555px) {
@@ -177,11 +133,278 @@ div.mobf {
 /*GALLERY PAGE*/
 
 .pic a {
-	width: 50%;
+	/*width: 50%;*/
 }
 
 
 .pic img {
-	width: auto;
+	/*width: auto;*/
 }
 
+div .bckimg {
+	width: 	500px;
+	height: 360px;
+	background-image: url("../images/tomato.jpg");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-left: 60px !important;
+	margin-bottom: 40px !important;
+	margin-top: 40px !important;
+}
+
+div .bckimg1 {
+	width: 	500px;
+	height: 360px;
+	background-image: url("../images/basil.jpg");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-top: 40px !important;
+	margin-left: 60px !important;
+	margin-bottom: 40px !important;
+}
+
+div .bckimg2 {
+	width: 	500px;
+	height: 360px;
+	background-image: url("../images/dahlia.jpg");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-left: 60px !important;
+	margin-bottom: 40px !important;
+}
+
+div .bckimg3 {
+	width: 	500px;
+	height: 360px;
+	background-image: url("../images/lilly.jpg");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin-left: 60px !important;
+	margin-bottom: 40px !important;
+}
+
+div.dhimg {
+	transition: background-size 6s !important;
+}
+
+div.dhimg:hover {
+ background-size: 170%;
+
+}
+
+/*ABOUT PAGE*/
+
+
+.postext {
+	padding-top: 200px;
+}
+
+.pospic {
+	padding: 100px 0;
+}
+
+/*CONTACT PAGE*/
+
+.ptop {
+	padding-top: 80px;
+}
+
+.pimg {
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+/*GALLERY PICTURE PAGES*/
+body, html {
+	height: 100%;
+}
+
+.tomatopage, .basilpage, .dahliapage, .lillypage {
+	height: 100%;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white !important;
+}
+
+div.tomatopage div.gallery a.removeborder,
+div.basilpage div.gallery a.removeborder,
+div.dahliapage div.gallery a.removeborder,
+div.lillypage div.gallery a.removeborder {	
+	border-right: 0 !important;
+}
+
+/*GALLERY PICTURE TOMATO PAGE*/
+
+.tomatopage {
+	background-image: url("../images/tomato.jpg");
+}
+
+.tomatopage a {
+	color: #F9F8FF !important;
+	border-right: 2px solid #F9F8FF !important;
+}
+
+.tomatopage a:hover {
+	color: black !important;
+}
+
+/*GALLERY PICTURE BASIL PAGE*/
+
+
+.basilpage {
+	background-image: url("../images/basil.jpg");
+
+}
+
+.basilpage a {
+	color: #F9F8FF !important;
+	border-right: 2px solid #F9F8FF !important;
+}
+
+.basilpage a:hover {
+	color: black !important;
+}
+
+
+
+/*GALLERY PICTURE DAHLIA PAGE*/
+
+.dahliapage {
+	background-image: url("../images/dahlia.jpg");
+
+}
+
+.dahliapage a {
+	color: #F9F8FF !important;
+	border-right: 2px solid #F9F8FF !important;
+}
+
+.dahliapage a:hover {
+	color: black !important;
+}
+
+/*GALLERY PICTURE LILLY PAGE*/
+
+.lillypage {
+	background-image: url("../images/lilly.jpg");
+
+}
+
+.lillypage a {
+	color: #F9F8FF !important;
+	border-right: 2px solid #F9F8FF !important;
+}
+
+.lillypage a:hover {
+	color: black !important;
+}
+
+/*PROBAPROBA*/
+
+.galdesc {
+    position: relative; 
+    height: 100%;
+    margin: 0 auto; /* Center it */
+}
+
+.galdesc .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.galdesc p {
+	color: white;
+}
+
+/*CONTACT FORM*/
+
+.red {
+    color:red;
+}
+.form-area {
+    background-color: #FAFAFA;
+	padding: 10px 40px 60px;
+	margin: 10px 0px 60px;
+	border: 1px solid GREY;
+}
+
+div.contactformtext {
+	padding-top: 	150px;
+	margin-left: 	50px;
+}
+
+/*MEDIA QUEARY CONTACT FORM MOBILE*/
+
+@media screen and (max-width: 770px) {
+	div.contactformtext {
+		display: none;
+	}
+}
+
+/*MEDIA QUEARY ABOUT MOBILE*/
+@media screen and (min-width: 720px){
+	div.mobpostext {
+		display: none;
+	}
+}
+@media screen and (max-width: 720px){
+	div.mobtextno {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	div.mobpostext {
+		text-align: center;
+	}
+
+	div.mobposttext {
+
+	}
+}
+
+@media screen and (max-width: 720px){
+	div.mobpospic {
+		align-content: center; 
+	}
+}
+
+@media screen and (max-width: 720px) {
+	div.mobpostext p:first-of-type {
+		padding-top: 40px;
+	}
+	div.mobpostext p:nth-of-type(4) {
+		padding-top: 40px;
+	}
+}
+
+/*MEDIA QUEARY CONTACT PAGE MOBILE*/
+@media screen and (min-width: 720px) {
+		div.contactmtext {
+		display: none;
+	}
+}
+@media screen and (max-width: 720px) {
+		div.contactdtext {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 720px) {
+	div.contactmtext p:first-of-type {
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+	div.contactmtext p:nth-of-type(4) {
+		padding-bottom: 20px;
+	}
+}
