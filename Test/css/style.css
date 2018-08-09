@@ -123,24 +123,55 @@ div.mobf {
 
 
 }
-
+/*NAVIGATION MEDIA QUEARY*/
 @media screen and (max-width: 555px) {
 	li.nav-item a.nav-link {
 		font-size: 20px !important;
 	}
 }
 
-@media screen and (max-width: 460px) {
+@media screen and (max-width: 482px) {
 	li.nav-item a.nav-link {
 		font-size: 15px !important;
 	}
 }
-@media screen and (max-width: 396px) {
+@media screen and (max-width: 413px) {
 	li.nav-item a.nav-link {
 		font-size: 10px !important;
 	}
 }
+@media screen and (max-width: 346px) {
+	li.nav-item a.nav-link {
+		font-size: 8px !important;
+	}
+}
 
+@media screen and (max-width: 320px) {
+	li.nav-item a.nav-link {
+		font-size: 7px !important;
+	}
+}
+@media screen and (max-width: 307px) {
+	li.nav-item a.nav-link {
+		font-size: 6px !important;
+	}
+}
+@media screen and (max-width: 292px) {
+	li.nav-item a.nav-link {
+		font-size: 5px !important;
+	}
+}
+@media screen and (max-width: 280px) {
+	li.nav-item a.nav-link {
+		font-size: 4px !important;
+	}
+}
+@media screen and (max-width: 267px) {
+	li.nav-item a.nav-link {
+		font-size: 3px !important;
+	}
+	}
+}
 /*GALLERY PAGE*/
 
 .pic a {
