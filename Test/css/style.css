@@ -125,8 +125,19 @@ div.mobf {
 }
 
 @media screen and (max-width: 555px) {
-	ul.nav {
-		display: 	none;
+	li.nav-item a.nav-link {
+		font-size: 20px !important;
+	}
+}
+
+@media screen and (max-width: 460px) {
+	li.nav-item a.nav-link {
+		font-size: 15px !important;
+	}
+}
+@media screen and (max-width: 396px) {
+	li.nav-item a.nav-link {
+		font-size: 10px !important;
 	}
 }
 
